@@ -1,0 +1,16 @@
+# Local configuration template for Aura Transit
+# Copy this file to local.properties and set your local SDK and API keys.
+
+# Path to the Android SDK on your system
+sdk.dir=C\:\\Users\\tanis\\AppData\\Local\\Android\\Sdk
+
+# Google Maps SDK for Android API Key
+# 1. Go to Google Cloud Console (https://console.cloud.google.com/)
+# 2. Enable "Maps SDK for Android"
+# 3. Create an API Key in Credentials and paste it below
+MAPS_API_KEY=AIzaSyDEMO_KEY_FOR_LOCAL_DEV
+
+# Backend server URL for Android apps:
+# - Standard Android Emulator: http://10.0.2.2:8000
+# - Physical Device via Wi-Fi: http://<YOUR_COMPUTER_LOCAL_IP>:8000 (e.g., http://192.168.1.15:8000)
+BACKEND_BASE_URL=http://10.0.2.2:8000
