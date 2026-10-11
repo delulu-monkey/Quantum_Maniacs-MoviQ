@@ -20,5 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Transit"
-include(":aura-passenger")
-include(":aura-driver")
+include(":moviq-passenger")
+include(":moviq-driver")
