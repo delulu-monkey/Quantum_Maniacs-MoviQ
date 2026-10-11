@@ -1,4 +1,4 @@
-package com.aura.transit.passenger.data.model
+package com.moviq.transit.passenger.data.model
 
 data class Journey(
     val id: String,
